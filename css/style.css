@@ -396,6 +396,11 @@ span{
     nav ul li{
         font-size: 15px;
     }
+
+    #Fonctionnalites h2{
+        font-size: 45px;
+    }
+
     #product{
         font-size: 15px;
         padding: 20%;
