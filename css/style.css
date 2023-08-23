@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    background-color: #1e172f;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li :hover{
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 15px;
+    color: silver;
+}
+
+nav ul li button{
+    padding: 10px;
+    border: none;
+    background: linear-gradient(50deg, rgb(152, 67, 255), rgb(83, 149, 255));
+}
+
+#productPage{
+    height: 600px;
+    display: flex;
+}
+#product{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2550;
+    color: white;
+    font-size: 23px;
+    justify-content: center;
+    padding-left: 20%;
+    align-items: center;
+}
+#product h1{
+    font-size: 90px;
+}
+#product p{
+    width: 70%;
+}
+#buttons{
+    display: flex;
+    border: 1px solid #8b8b8b;
+    width: 50%;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#buttons button{
+    padding: 8px 15px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+#download{
+    background-color: #fff;
+    color: #f198c5;
+    width: 55%;
+}
+
+#Features{
+    background-color: #00000000;
+    border: 2px solid white;
+    color: white;
+    width: 40%;
+}
+
+#phone{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    padding-left: 140px;
+    background-image: url(../images/hojasFondo.jpg);
+    background-size: cover;
+}
+
+#phone  img{
+    height: 80%;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#alpha img{
+    height: 16px;
+}
+
+#Fonctionnalites{
+    background-color: #f1f2f7;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Fonctionnalites h2{
+    color: #f40c86;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#sectionF{
+    display: flex;
+    width: 50%;
+    margin: 5px 0 50px 0;
+}
+#sectionF #laptop{
+    width: 50%;
+}
+
+#alpha{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+#alpha ul li{
+    list-style: none;
+}
+
+#Plans{
+    display: flex;
+    flex-direction: column;
+    background-color: #1e172f;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+#Plans #Lorem{
+    width: 65%;
+    text-align: center;
+    margin: 30px;
+}
+
+#cards{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    color: black;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 550px;
+}
+
+.card .titleCards{
+    font-size: 25px;
+}
+
+.card .logoCards{
+    width: 100px;
+}
+
+.card .grey{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.card .Lorem2{
+    margin: 10%;
+}
+
+.card button{
+    width: 55%;
+    padding: 5%;
+    border: none;
+    color: white;
+    background-color: #2e2550;
+}
+
+.card #Btn-rose{
+    background-color: #f3208b;
+}
+
+.card ul li{
+    list-style: url(../images/check-negro.png);
+}
+.card ul .estrella{
+    list-style: url(../images/estrella-negro.png);
+}
+
+.card ul .equis{
+    list-style: url(../images/equis-negro.png);
+}
+.card #rosa .estrella{
+    list-style: url(../images/estrella.png);
+}
+
+.card #rosa .equis{
+    list-style: url(../images/equis-negro.png);
+}
+.card #rosa li{
+    list-style: url(../images/check-rosa.png);
+}
+
+footer{
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 30px;
+    font-size: 18px;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+span{
+    color: #f3208b;
+}
+
+@media screen and (max-width: 1279px){
+    #product h1{
+        font-size: 70px;
+    }
+    #product{
+        padding-left: 10%;
+    }
+
+    #buttons{
+        width: 60%;
+    }
+
+    #laptop{
+        width: 50%;
+        height: 150px;
+    }
+
+    #sectionF{
+        align-items: center;
+        width: 65%;
+    }
+
+    #cards{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 920px){
+    #product h1{
+        font-size: 60px;
+    }
+    #product{
+        padding-left: 10%;
+        font-size: 25px;
+    }
+
+    #buttons{
+        width: 60%;
+    }
+
+    #phone img{
+        height: 60%;
+    }
+
+    #phone{
+        padding-left: 100px;
+    }
+
+    .card{
+        width: 31%;
+    }
+
+    .Lorem2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .card li{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-around;
+    }
+    nav img{
+        height: 50px;
+    }
+
+    #productPage{
+        flex-direction: column;
+        height: 800px;
+    }
+
+    #product{
+        width: 100vw;
+        height: 400px;
+        padding-left: 25%;
+    }
+
+    #product h1{
+        font-size: 45px;
+    }
+
+    #product p{
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    #buttons{
+        width: 60%;
+    }
+
+    #phone{
+        width: 100vw;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    #phone img{
+        width: 150px;
+        height: 300px;
+    }
+
+    #sectionF{
+        flex-direction: column;
+    }
+
+    #alpha{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    #sectionF #laptop{
+        width: 60%;
+    }
+
+    #cards{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .card{
+        width: 60%;
+        margin-bottom: 15px;
+        height: 480px;
+    }
+
+    #Plans #Lorem{
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+    footer img{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    nav{
+       padding: 10px;
+    }
+    nav ul li{
+        font-size: 15px;
+    }
+    #product{
+        font-size: 15px;
+        padding: 20%;
+    }
+
+    #product p{
+        font-size: 15px;
+    }
+
+    .card{
+        width: 65%;
+        height: 480px;
+    }
+    #buttons{
+        width: 95%;
+    }
+
+    #sectionF #laptop{
+        width: 60%;
+        height: 60%;
+    }
+    #Plans{
+        padding: 3%;
+    }
+
+    #Lorem{
+        font-size: 12px;
+        width: 100%;
+    }
+    .Lorem2{
+        font-size: 13px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+    }
+
+    footer img{
+        width: 10px;
+        height: 10px;
+    }
+
+    footer div{
+        width: 35%;
+    }
+}
